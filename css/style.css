@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* setting the flex box and the typo graphy */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+/* class for lighter weight */
+.light-weight {
+  font-weight: 300;
+}
+p.grey_color.left {
+  margin-left: 15px;
+}
+.cyan_color {
+  color: hsl(178, 100%, 50%);
+}
+.grey_color {
+  color: hsl(215, 51%, 70%);
+}
+.white_color {
+  color: white;
+}
+/* main container for the content */
+.container {
+  max-height: 600px;
+  /* height: 85vh; */
+  max-width: 300px;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+/* setting the margin for all the elements */
+.container > * {
+  margin-top: 20px;
+}
+
+/* main image configration */
+.main-div {
+  position: relative;
+  margin: 0px;
+}
+.img-div {
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}
+.color-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  opacity: 0;
+}
+
+.front-img {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+.color-div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.hover:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+/* text alignment for the small images */
+.inner img {
+  vertical-align: bottom;
+}
+img[alt="avatar"] {
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+/* floating the elements in the inner box */
+.left {
+  display: inline;
+}
+.right {
+  display: inline;
+  float: right;
+}
