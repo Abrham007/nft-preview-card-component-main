@@ -44,33 +44,22 @@ p.grey_color.left {
 }
 
 /* main image configration */
+
 .main-div {
-  position: relative;
-  margin: 0px;
-}
-.img-div {
-  position: absolute;
-  top: 43%;
-  left: 43%;
-}
-.color-div {
-  position: absolute;
-  top: 0;
-  left: 0;
+  background: url(../images/image-equilibrium.jpg) 0 0 / 100%;
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
+  margin: 0;
+}
+.gen {
+  background: url(../images/icon-view.svg) no-repeat center
+    hsl(178, 100%, 50%, 0.5);
   height: 100%;
-  width: 100%;
-  background-color: hsl(178, 100%, 50%, 0.5);
+  border-radius: inherit;
   opacity: 0;
 }
-
-.front-img {
-  display: block;
-  max-width: 300px;
-  margin: auto;
-  border-radius: 10px;
-}
-.color-div:hover {
+.gen:hover {
   opacity: 1;
   cursor: pointer;
 }
