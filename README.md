@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Abrham007/huddle-landing-page-with-single-introductory-section-master.git)
-- Live Site URL: [live site URL](https://abrham007.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [solution URL](https://github.com/Abrham007/nft-preview-card-component-main.git)
+- Live Site URL: [live site URL](https://abrham007.github.io/nft-preview-card-component-main/)
 
 ## My process
 
