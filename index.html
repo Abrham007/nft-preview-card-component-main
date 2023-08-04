@@ -21,32 +21,31 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="main-div">
-        <div class="gen"></div>
+    <main class="container">
+      <div class="img-div" role="img">
+        <div class="img-hover"></div>
       </div>
-
-      <h3 class="white_color hover">Equilibrium #3429</h3>
+      <h1 class="white_color hover">Equilibrium #3429</h1>
       <p class="grey_color light-weight">
         Our Equilibrium collection promotes balance and calm.
       </p>
-      <div class="inner">
-        <p class="left cyan_color">
+      <div class="inner" role="presentation">
+        <mark class="left cyan_color">
           <img src="./images/icon-ethereum.svg" alt="icon of etherium" /> 0.041
           ETH
-        </p>
+        </mark>
         <p class="right grey_color">
           <img src="./images/icon-clock.svg" alt="icon of clock" /> 3 days left
         </p>
       </div>
       <hr />
-      <div class="inner">
+      <div class="inner" role="contentinfo">
         <img src="./images/image-avatar.png" alt="avatar" height="30px" />
         <p class="left grey_color">
           Creation of
           <span class="white_color light-weight hover">Jules Wyvern</span>
         </p>
       </div>
-    </div>
+    </main>
   </body>
 </html>
